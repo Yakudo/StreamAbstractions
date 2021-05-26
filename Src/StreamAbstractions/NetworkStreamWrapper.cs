@@ -1,4 +1,6 @@
-﻿namespace System.Net.Sockets.TestingHelpers
+﻿using System.Net.Sockets;
+
+namespace StreamAbstractions
 {
     public class NetworkStreamWrapper : StreamWrapper, INetworkStream
     {

@@ -1,4 +1,4 @@
-﻿namespace System.Net.Sockets.TestingHelpers
+﻿namespace StreamAbstractions
 {
     public interface INetworkStream : IStream
     {

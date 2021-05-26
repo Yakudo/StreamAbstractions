@@ -1,8 +1,9 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace System.Net.Sockets.TestingHelpers
+namespace StreamAbstractions
 {
     public class StreamWrapper : IStream
     {
